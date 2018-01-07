@@ -8,7 +8,7 @@ public class ReverseString {
      * Space: O(n)
      *
      */
-    public String reverse(String str) {
+    public static String reverse(String str) {
         if (str.length() <= 1) {
             return str;
         } else {
@@ -26,4 +26,12 @@ public class ReverseString {
             return new String(arr);
         }
     }
+
+//    public static void main(String[] args) {
+//        System.out.println(reverse(""));
+//        System.out.println(reverse("A"));
+//        System.out.println(reverse("hello"));
+//        System.out.println(reverse("four"));
+//    }
+
 }
