@@ -5,3 +5,4 @@ This repository contains my solutions for the programming problems posed on [lee
 ## Solved so far...
 
 1. [TwoSum](https://leetcode.com/problems/two-sum/description/)
+2. [ReverseString](https://leetcode.com/problems/reverse-string/description/)
