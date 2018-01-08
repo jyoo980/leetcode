@@ -9,3 +9,4 @@ This repository contains my solutions for the programming problems posed on [lee
 3. [ReverseWords](https://leetcode.com/problems/reverse-words-in-a-string/)
 4. [SingleNumber](https://leetcode.com/problems/single-number/description/)
 5. [ValidAnagram](https://leetcode.com/problems/valid-anagram/description/)
+6. [ArrayIntersection](https://leetcode.com/problems/intersection-of-two-arrays/description/)
