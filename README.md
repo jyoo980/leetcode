@@ -10,3 +10,4 @@ This repository contains my solutions for the programming problems posed on [lee
 4. [SingleNumber](https://leetcode.com/problems/single-number/description/)
 5. [ValidAnagram](https://leetcode.com/problems/valid-anagram/description/)
 6. [ArrayIntersection](https://leetcode.com/problems/intersection-of-two-arrays/description/)
+7. [WordRotation](https://leetcode.com/problems/rotate-array/description/)

@@ -19,5 +19,10 @@ public class WordRotation {
         }
     }
 
+//    public static void main(String[] args) {
+//        System.out.println(validRotation("waterbottle", "lewaterbott"));
+//        System.out.println(validRotation("rotation", "ionrotat"));
+//        System.out.println(validRotation("rotation", "tonrotat"));
+//    }
 
 }
