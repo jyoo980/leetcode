@@ -21,9 +21,9 @@ public class StringSegments {
         return segCounter + 1;
     }
 
-    public static void main(String[] args) {
-        System.out.println(stringSegments("Hello"));
-        System.out.println(stringSegments("Hello, my name is John"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(stringSegments("Hello"));
+//        System.out.println(stringSegments("Hello, my name is John"));
+//    }
 
 }

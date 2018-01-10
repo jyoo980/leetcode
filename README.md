@@ -12,3 +12,4 @@ This repository contains my solutions for the programming problems posed on [lee
 6. [ArrayIntersection](https://leetcode.com/problems/intersection-of-two-arrays/description/)
 7. [WordRotation](https://leetcode.com/problems/rotate-array/description/)
 8. [KthLargestElement](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)
+9. [StringSegments](https://leetcode.com/problems/number-of-segments-in-a-string/description/)
