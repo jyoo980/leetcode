@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class FindArrayDuplicates {
 
@@ -10,18 +12,23 @@ public class FindArrayDuplicates {
      * Output: [2,3]
      *
      */
-    public static int[] getDuplicateNums(int[] array) {
-        int[] duplicates = {};
+    public static List<Integer> getDuplicateNums(int[] array) {
+        List<Integer> duplicates = new ArrayList<>();
         Arrays.sort(array);
 
         for (int i = 0; i < array.length - 2; i++) {
             if (array[i] == array[i + 1]) {
-                duplicates[i] = array[i];
+                duplicates.add(array[i]);
             }
         }
         return duplicates;
     }
 
-    
+//    public static void main(String[] args) {
+//        int[] test = {4, 3, 2, 7, 8, 2, 3, 1};
+//        int[] test2 = {1, 2, 2, 3};
+//        System.out.println(getDuplicateNums(test));
+//        System.out.println(getDuplicateNums(test2));
+//    }
 
 }

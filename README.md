@@ -15,3 +15,4 @@ This repository contains my solutions for the programming problems posed on [lee
 9. [StringSegments](https://leetcode.com/problems/number-of-segments-in-a-string/description/)
 10. [FizzBuzz](https://leetcode.com/problems/fizz-buzz/description/)
 11. [MaxConsecutiveOnes](https://leetcode.com/problems/max-consecutive-ones/description/)
+12. [FindArrayDuplicates](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
