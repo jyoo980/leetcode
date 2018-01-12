@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class FindArrayDuplicates {
 
     /**
@@ -9,7 +11,17 @@ public class FindArrayDuplicates {
      *
      */
     public static int[] getDuplicateNums(int[] array) {
-        return null;
+        int[] duplicates = {};
+        Arrays.sort(array);
+
+        for (int i = 0; i < array.length - 2; i++) {
+            if (array[i] == array[i + 1]) {
+                duplicates[i] = array[i];
+            }
+        }
+        return duplicates;
     }
+
+    
 
 }
