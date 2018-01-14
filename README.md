@@ -18,3 +18,4 @@ This repository contains my solutions for the programming problems posed on [lee
 12. [FindArrayDuplicates](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
 13. [StringDifference](https://leetcode.com/problems/find-the-difference/description/)
 14. [IsPowerOfTwo](https://leetcode.com/problems/power-of-two/)
+15. [RangeSumQuery](https://leetcode.com/problems/range-sum-query-immutable/description/)
