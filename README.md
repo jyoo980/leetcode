@@ -17,3 +17,4 @@ This repository contains my solutions for the programming problems posed on [lee
 11. [MaxConsecutiveOnes](https://leetcode.com/problems/max-consecutive-ones/description/)
 12. [FindArrayDuplicates](https://leetcode.com/problems/find-all-duplicates-in-an-array/description/)
 13. [StringDifference](https://leetcode.com/problems/find-the-difference/description/)
+14. [IsPowerOfTwo](https://leetcode.com/problems/power-of-two/)

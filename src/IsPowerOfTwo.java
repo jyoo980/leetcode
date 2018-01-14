@@ -19,7 +19,11 @@ public class IsPowerOfTwo {
         return false;
     }
 
-    
-
+    public static void main(String[] args) {
+        System.out.println(isPowerOfTwo(0));
+        System.out.println(isPowerOfTwo(24));
+        System.out.println(isPowerOfTwo(1));
+        System.out.println(isPowerOfTwo(2 * 2 * 2 * 2));
+    }
 
 }
