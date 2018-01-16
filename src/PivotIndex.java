@@ -10,6 +10,31 @@ public class PivotIndex {
      *
      */
     public static int getPivotIndex(int[] nums) {
+        int leftSum = 0;
+        int rightSum = 0;
+
+        for (int i = 0; i < nums.length; i++) {
+            leftSum = 0;
+            rightSum = 0;
+
+            for (int j = 0; j < i; j++) {
+                leftSum += nums[j];
+            }
+
+            for (int k = i + 1; k < nums.length; k++) {
+                rightSum += nums[k];
+            }
+
+            if (leftSum == rightSum) return i;
+        }
         return -1;
     }
+
+//    public static void main(String[] args) {
+//        int[] test = {1, 7, 3, 6, 5, 6};
+//        int[] test2 = {1, 1, 4, 0, 2};
+//        System.out.println(getPivotIndex(test));
+//        System.out.println(getPivotIndex(test2));
+//    }
+
 }
