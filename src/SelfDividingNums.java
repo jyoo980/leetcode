@@ -31,9 +31,9 @@ public class SelfDividingNums {
         return true;
     }
 
-    public static void main(String[] args) {
-        System.out.println(getSelfDividingNums(1, 22));
-        System.out.println(getSelfDividingNums(1, 128));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(getSelfDividingNums(1, 22));
+//        System.out.println(getSelfDividingNums(1, 128));
+//    }
 
 }
