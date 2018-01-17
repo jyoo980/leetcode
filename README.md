@@ -21,3 +21,4 @@ This repository contains my solutions for the programming problems posed on [lee
 15. [RangeSumQuery](https://leetcode.com/problems/range-sum-query-immutable/description/)
 16. [FindPivotIndex](https://leetcode.com/problems/find-pivot-index/description/)
 17. [SelfDividingNumbers](https://leetcode.com/problems/self-dividing-numbers/description/)
+18. [BinaryBits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)
