@@ -30,11 +30,11 @@ public class SetMismatch {
         }
     }
 
-    public static void main(String[] args) {
-        int[] test1 = {1,2,2,4};
-        int[] test2 = {1,3,1,4,5,6,7};
-        System.out.println(getMismatched(test1));
-        System.out.println(getMismatched(test2));
-    }
+//    public static void main(String[] args) {
+//        int[] test1 = {1,2,2,4};
+//        int[] test2 = {1,3,1,4,5,6,7};
+//        System.out.println(getMismatched(test1));
+//        System.out.println(getMismatched(test2));
+//    }
 
 }
