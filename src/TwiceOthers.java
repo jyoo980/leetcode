@@ -10,14 +10,34 @@ public class TwiceOthers {
      *
      */
     public static int twiceOthers(int[] nums) {
-        return -1;
+        int largest = getMax(nums);
+
+
+
     }
 
     private static int getMax(int[] nums) {
-        return -1;
+        int max = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            max = (nums[i] > max)? nums[i] : max;
+        }
+        return max;
+    }
+
+    private static int getLargestIndex(int[] nums) {
+        int largest = getMax(nums);
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == largest) {
+                return i;
+            }
+        }
+        return 0;
     }
 
     public static void main(String[] args) {
-        
+        int[] test1 = {3, 6, 1, 0};
+        System.out.println(getMax(test1));
     }
 }
