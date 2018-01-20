@@ -26,13 +26,13 @@ public class MaxThreeProduct {
         return maxProduct;
     }
 
-    public static void main(String[] args) {
-        int[] test1 = {1,2,3};
-        int[] test2 = {1,2,3,4};
-        int[] test3 = {3, 2, 6, 0, 1, 3};
-        System.out.println(maxThreeProduct(test1));
-        System.out.println(maxThreeProduct(test2));
-        System.out.println(maxThreeProduct(test3));
-    }
+//    public static void main(String[] args) {
+//        int[] test1 = {1,2,3};
+//        int[] test2 = {1,2,3,4};
+//        int[] test3 = {3, 2, 6, 0, 1, 3};
+//        System.out.println(maxThreeProduct(test1));
+//        System.out.println(maxThreeProduct(test2));
+//        System.out.println(maxThreeProduct(test3));
+//    }
 
 }
