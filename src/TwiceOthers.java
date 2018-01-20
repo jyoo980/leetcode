@@ -43,8 +43,11 @@ public class TwiceOthers {
         return -1;
     }
 
-    public static void main(String[] args) {
-        int[] test1 = {3, 6, 1, 0};
-        System.out.println(twiceOthers(test1));
-    }
+//    public static void main(String[] args) {
+//        int[] test1 = {3, 6, 1, 0};
+//        int[] test2 = {1, 2, 3, 4};
+//        System.out.println(twiceOthers(test1));
+//        System.out.println(twiceOthers(test2));
+//    }
+
 }
