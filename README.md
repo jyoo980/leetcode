@@ -24,3 +24,4 @@ This repository contains my solutions for the programming problems posed on [lee
 18. [BinaryBits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)
 19. [TwiceOthers](https://leetcode.com/problems/valid-parenthesis-string/description/)
 20. [RepeatedStringMatch](https://leetcode.com/problems/repeated-string-match/description/)
+21. [MaxThreeProduct](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)
