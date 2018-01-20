@@ -26,3 +26,4 @@ This repository contains my solutions for the programming problems posed on [lee
 20. [RepeatedStringMatch](https://leetcode.com/problems/repeated-string-match/description/)
 21. [MaxThreeProduct](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)
 22. [SetMismatch](https://leetcode.com/problems/set-mismatch/description/)
+23. LongestStringMatch
