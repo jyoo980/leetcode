@@ -23,3 +23,4 @@ This repository contains my solutions for the programming problems posed on [lee
 17. [SelfDividingNumbers](https://leetcode.com/problems/self-dividing-numbers/description/)
 18. [BinaryBits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)
 19. [TwiceOthers](https://leetcode.com/problems/valid-parenthesis-string/description/)
+20. [RepeatedStringMatch](https://leetcode.com/problems/repeated-string-match/description/)
