@@ -12,8 +12,15 @@ public class TwiceOthers {
     public static int twiceOthers(int[] nums) {
         int largest = getMax(nums);
 
+        for (int num : nums) {
+            if (largest != num) {
+                if (largest < (num * 2)) {
+                    return -1;
+                }
+            }
+        }
 
-
+        return getLargestIndex(nums);
     }
 
     private static int getMax(int[] nums) {
@@ -33,11 +40,11 @@ public class TwiceOthers {
                 return i;
             }
         }
-        return 0;
+        return -1;
     }
 
     public static void main(String[] args) {
         int[] test1 = {3, 6, 1, 0};
-        System.out.println(getMax(test1));
+        System.out.println(twiceOthers(test1));
     }
 }
