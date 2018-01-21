@@ -29,11 +29,10 @@ public class StringNeedleHaystack {
         return needleIndex;
     }
 
-    public static void main(String[] args) {
-        System.out.println(strStr("ll", "hello"));
-        System.out.println(strStr("bba", "aaaaa"));
-        System.out.println(strStr("ap", "aghapfdfd"));
-    }
-
+//    public static void main(String[] args) {
+//        System.out.println(strStr("ll", "hello"));
+//        System.out.println(strStr("bba", "aaaaa"));
+//        System.out.println(strStr("ap", "aghapfdfd"));
+//    }
 
 }
