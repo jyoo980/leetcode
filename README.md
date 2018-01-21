@@ -28,4 +28,4 @@ This repository contains my solutions for the programming problems posed on [lee
 22. [SetMismatch](https://leetcode.com/problems/set-mismatch/description/)
 23. LongestStringMatch
 24. [MergeSortedLists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
-
+25. [LastWordLength](https://leetcode.com/problems/length-of-last-word/description/)
