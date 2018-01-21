@@ -10,18 +10,18 @@ public class StringNeedleHaystack {
      */
     public static int strStr(String needle, String haystack) {
         int needleIndex = -1;
-        boolean insideSwitch = false;
+        boolean mistMatch = false;
 
         for (int i = 0; i < haystack.length(); i++) {
             if (haystack.charAt(i) == needle.charAt(0)) {
                 needleIndex = i;
                 for (int j = 0; j < needle.length(); j++) {
                     if (haystack.charAt(i) != needle.charAt(j)) {
-                        insideSwitch = true;
+                        mistMatch = true;
                         break;
                     }
                 }
-                if (!insideSwitch) {
+                if (!mistMatch) {
                     return needleIndex;
                 }
             }
