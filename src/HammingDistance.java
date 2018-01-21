@@ -12,8 +12,13 @@ public class HammingDistance {
         return 0;
     }
 
-    public static void main(String[] args) {
+    public static String toBinary(int num) {
+        return null;
+    }
 
+    public static void main(String[] args) {
+        System.out.println(hammingDistance(1, 4));
+        System.out.println(hammingDistance(1, 1));
     }
 
 }
