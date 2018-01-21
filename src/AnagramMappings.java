@@ -24,10 +24,10 @@ public class AnagramMappings {
         return array;
     }
 
-    public static void main(String[] args) {
-        int[] arr1 = {12, 28, 46, 32, 50};
-        int[] arr2 = {50, 12, 32, 46, 28};
-        System.out.println(getMapping(arr1, arr2));
-    }
+//    public static void main(String[] args) {
+//        int[] arr1 = {12, 28, 46, 32, 50};
+//        int[] arr2 = {50, 12, 32, 46, 28};
+//        System.out.println(getMapping(arr1, arr2));
+//    }
 
 }

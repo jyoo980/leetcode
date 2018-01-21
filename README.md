@@ -32,3 +32,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 25. [LastWordLength](https://leetcode.com/problems/length-of-last-word/description/)
 26. [ImplementstrStr()](https://leetcode.com/problems/implement-strstr/description/)
 27. [HammingDistance](https://leetcode.com/problems/hamming-distance/description/)
+28. [AnagramMapping](https://leetcode.com/problems/find-anagram-mappings/description/)
