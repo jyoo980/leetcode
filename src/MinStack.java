@@ -23,6 +23,7 @@ public class MinStack {
         if (container.isEmpty()) {
             container.add(cursor, x);
             currentMin = x;
+            cursor++;
         } else {
             currentMin = (x < currentMin)? x : currentMin;
             container.add(cursor, x);
@@ -33,6 +34,17 @@ public class MinStack {
     private void pop() {
         if (!container.isEmpty()) {
             container.remove(container.size() - 1);
+            resetMin();
+        }
+    }
+
+    private void resetMin() {
+        if (!container.isEmpty()) {
+            int min = container.get(0);
+            for (int i = 1; i < container.size(); i++) {
+                min = (min < container.get(i))? min : container.get(i);
+            }
+            currentMin = min;
         }
     }
 
@@ -51,7 +63,7 @@ public class MinStack {
         minStack.push(-3);
         System.out.println(minStack.getMin());
         minStack.pop();
-        minStack.top();
+        System.out.println(minStack.top());
         System.out.println(minStack.getMin());
     }
 
