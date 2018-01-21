@@ -30,13 +30,13 @@ public class InsertPosition {
         return -1;      // error case
     }
 
-    public static void main(String[] args) {
-        int[] test1 = {1,3,5,6};
-        int[] test2 = {1,3,5,6};
-        int[] test3 = {1,3,5,6};
-        System.out.println(getInsertPosition(test1, 5));
-        System.out.println(getInsertPosition(test2, 0));
-        System.out.println(getInsertPosition(test3, 7));
-    }
+//    public static void main(String[] args) {
+//        int[] test1 = {1,3,5,6};
+//        int[] test2 = {1,3,5,6};
+//        int[] test3 = {1,3,5,6};
+//        System.out.println(getInsertPosition(test1, 5));
+//        System.out.println(getInsertPosition(test2, 0));
+//        System.out.println(getInsertPosition(test3, 7));
+//    }
 
 }
