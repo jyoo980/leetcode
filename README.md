@@ -1,6 +1,7 @@
 # leetcode
 
-This repository contains my solutions for the programming problems posed on [leetcode](https://leetcode.com/). Not all solutions may be optimal, but they should be working, first-pass attempts at least. 
+This repository contains my solutions for the programming problems posed on [leetcode](https://leetcode.com/). 
+Not all solutions may be optimal, but they should be working, first-pass attempts at least. 
 
 ## Solved so far...
 
