@@ -33,11 +33,11 @@ public class LastWordLength {
 
     }
 
-    public static void main(String[] args) {
-        System.out.println(lastWordLen("Hello, world!"));
-        System.out.println(lastWordLen("Mynameisbob"));
-        System.out.println(lastWordLen("So don't look back in anger, I heard her say"));
-        System.out.println(lastWordLen("Hello my dude "));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(lastWordLen("Hello, world!"));
+//        System.out.println(lastWordLen("Mynameisbob"));
+//        System.out.println(lastWordLen("So don't look back in anger, I heard her say"));
+//        System.out.println(lastWordLen("Hello my dude "));
+//    }
 
 }
