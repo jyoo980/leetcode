@@ -13,8 +13,16 @@ public class HammingDistance {
     }
 
     public static String toBinary(int num) {
-        return null;
+        StringBuilder result = new StringBuilder();
+
+        while (num != 0) {
+            result.append(num % 2);
+            num /= 2;
+        }
+        return result.toString();
     }
+
+
 
     public static void main(String[] args) {
         System.out.println(hammingDistance(1, 4));
