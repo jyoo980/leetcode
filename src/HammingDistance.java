@@ -9,24 +9,37 @@ public class HammingDistance {
      *
      */
     public static int hammingDistance(int x, int y) {
-        return 0;
+        int diffCount = 0;
+        String xStr = Integer.toBinaryString(x);
+        String yStr = Integer.toBinaryString(y);
+
+        if (xStr.length() < yStr.length()) {
+            xStr = addLeadingZeroes(xStr, yStr.length());
+        } else {
+            yStr = addLeadingZeroes(yStr, xStr.length());
+        }
+
+        for (int i = 0; i < xStr.length(); i++) {
+            if (xStr.charAt(i) != yStr.charAt(i)) {
+               diffCount++;
+            }
+        }
+        return diffCount;
     }
 
-    public static String toBinary(int num) {
-        StringBuilder result = new StringBuilder();
-
-        while (num != 0) {
-            result.append(num % 2);
-            num /= 2;
+    private static String addLeadingZeroes(String str, int len) {
+        StringBuilder result = new StringBuilder(str);
+        while (result.length() != len) {
+            result.insert(0, "0");
         }
         return result.toString();
     }
 
 
-
     public static void main(String[] args) {
         System.out.println(hammingDistance(1, 4));
         System.out.println(hammingDistance(1, 1));
+        System.out.println(hammingDistance(1, 2));
     }
 
 }
