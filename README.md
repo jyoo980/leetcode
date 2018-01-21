@@ -30,3 +30,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 23. LongestStringMatch
 24. [MergeSortedLists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
 25. [LastWordLength](https://leetcode.com/problems/length-of-last-word/description/)
+26. [ImplementstrStr()](https://leetcode.com/problems/implement-strstr/description/)
