@@ -1,3 +1,6 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+
 public class PowerN {
 
     /**
@@ -7,11 +10,29 @@ public class PowerN {
      *             2.10000, 3  -> 9.26100
      *
      */
-    public static double pow(int x, int n) {
-        return 0.0;
+    public static double pow(double x, int n) {
+        double result = 1.0;
+
+        for (int i = 0; i < n; i++) {
+            result *= x;
+        }
+        return result;
     }
 
-    public static void main(String[] args) {
-
+    // Recursive Solution
+    private static double recursivePow(double x, int n) {
+        if (n == 0) {
+            return 1;
+        } else {
+            return x * recursivePow(x, n - 1);
+        }
     }
+
+//    public static void main(String[] args) {
+//        System.out.println(pow(2.00000, 10));
+//        System.out.println(pow(2.10000, 3));
+//        System.out.println(recursivePow(2.00000, 10));
+//        System.out.println(recursivePow(2.10000, 3));
+//    }
+
 }
