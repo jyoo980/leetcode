@@ -32,5 +32,5 @@ public class FactorialTrailingZeroes {
 //    public static void main(String[] args) {
 //        System.out.println(trailingZeroes(5));
 //    }
-    
+
 }
