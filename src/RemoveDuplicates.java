@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class RemoveDuplicates {
@@ -10,10 +11,22 @@ public class RemoveDuplicates {
      *
      */
     public static int removeDuplicates(List<Integer> array) {
-        return -1;
+        for (int i = 0; i < array.size() - 1; i++) {
+            if (array.get(i).equals(array.get(i + 1))) {
+                array.remove(i);
+            }
+        }
+        return array.size();
     }
 
-    public static void main(String[] args) {
-        
-    }
+//    public static void main(String[] args) {
+//        List<Integer> test1 = new ArrayList<>();
+//        test1.add(1);
+//        test1.add(1);
+//        test1.add(3);
+//        test1.add(4);
+//        System.out.println(removeDuplicates(test1));
+//        System.out.println(removeDuplicates(test1));
+//    }
+
 }
