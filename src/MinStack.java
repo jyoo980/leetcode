@@ -10,7 +10,6 @@ public class MinStack {
      * getMin() -- Retrieve the minimum element in the stack.
      *
      */
-
     private int currentMin;
     private int cursor = 0;
     private List<Integer> container;

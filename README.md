@@ -35,3 +35,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 28. [AnagramMapping](https://leetcode.com/problems/find-anagram-mappings/description/)
 29. [ArrayProduct](https://www.programcreek.com/2014/07/leetcode-product-of-array-except-self-java/)
 30. [SearchInsertPosition](https://leetcode.com/problems/search-insert-position/description/)
+31. [MinStack](https://leetcode.com/problems/min-stack/)
