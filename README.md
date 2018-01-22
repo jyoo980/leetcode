@@ -36,3 +36,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 29. [ArrayProduct](https://www.programcreek.com/2014/07/leetcode-product-of-array-except-self-java/)
 30. [SearchInsertPosition](https://leetcode.com/problems/search-insert-position/description/)
 31. [MinStack](https://leetcode.com/problems/min-stack/)
+32. [RemovDuplicatesArray](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
