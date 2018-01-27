@@ -40,3 +40,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 33. [FactorialTrailingZeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
 34. [RepeatedSubstring](https://leetcode.com/problems/repeated-substring-pattern/description/)
 35. [IsSubsequence](https://leetcode.com/problems/is-subsequence/description/)
+36. [RansomNote](https://leetcode.com/problems/ransom-note/description/)
