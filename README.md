@@ -39,3 +39,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 32. [RemoveDuplicatesArray](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)
 33. [FactorialTrailingZeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/)
 34. [RepeatedSubstring](https://leetcode.com/problems/repeated-substring-pattern/description/)
+35. [IsSubsequence](https://leetcode.com/problems/is-subsequence/description/)
