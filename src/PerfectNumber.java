@@ -9,11 +9,21 @@ public class PerfectNumber {
      *
      */
     public static boolean isPerfectNumber(int num) {
-        return false;
+        int divisorSum = 0;
+
+        for (int i = 1; i < num; i++) {
+            if (num % i == 0) {
+                divisorSum += i;
+            }
+        }
+
+        return divisorSum != 0 && num / divisorSum == 1;
     }
 
     public static void main(String[] args) {
-
+        System.out.println(isPerfectNumber(5));
+        System.out.println(isPerfectNumber(6));
+        System.out.println(isPerfectNumber(28));
     }
-    
+
 }
