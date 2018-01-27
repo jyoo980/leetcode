@@ -26,14 +26,14 @@ public class MajorityElement {
         return -1;          // error case
     }
 
-    public static void main(String[] args) {
-        int[] test1 = {1, 2, 2, 4, 4, 2, 2, 2};
-        int[] test2 = {1};
-        int[] test3 = {1, 2, 2, 1, 1};
-
-        System.out.println(getMajorityElement(test1));
-        System.out.println(getMajorityElement(test2));
-        System.out.println(getMajorityElement(test3));
-    }
+//    public static void main(String[] args) {
+//        int[] test1 = {1, 2, 2, 4, 4, 2, 2, 2};
+//        int[] test2 = {1};
+//        int[] test3 = {1, 2, 2, 1, 1};
+//
+//        System.out.println(getMajorityElement(test1));
+//        System.out.println(getMajorityElement(test2));
+//        System.out.println(getMajorityElement(test3));
+//    }
 
 }

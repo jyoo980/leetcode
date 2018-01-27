@@ -42,3 +42,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 35. [IsSubsequence](https://leetcode.com/problems/is-subsequence/description/)
 36. [RansomNote](https://leetcode.com/problems/ransom-note/description/)
 37. [PerfectNumber](https://leetcode.com/problems/perfect-number/)
+38. [MajorityElement](https://leetcode.com/problems/majority-element/)
