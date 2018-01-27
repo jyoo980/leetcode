@@ -17,17 +17,23 @@ public class RansomNote {
             return false;
         } else {
             List<Character> magChars = new ArrayList<>();
-            dumpToList(mag, magChars);
-
-
+            dumpChars(mag, magChars);
+            int shorterLen = (note.length() < mag.length())? note.length() : mag.length();
+            for (int i = 0; i < shorterLen; i++) {
+                if (!magChars.contains(note.charAt(i))) {
+                    return false;
+                } else {
+                    magChars.remove((Character) note.charAt(i));
+                }
+            }
+            return true;
         }
-
     }
-    
-    private static void dumpToList(String s, List<Character> sArray) {
-        char[] sChars = s.toCharArray();
-        for (char c : sChars) {
-            sArray.add(c);
+
+    private static void dumpChars(String mag, List<Character> magChars) {
+        char[] magArray = mag.toCharArray();
+        for (Character c : magArray) {
+            magChars.add(c);
         }
     }
 
@@ -36,4 +42,5 @@ public class RansomNote {
         System.out.println(canConstruct("aa", "ab"));
         System.out.println(canConstruct("aa", "aab"));
     }
+
 }
