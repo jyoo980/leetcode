@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class RansomNote {
 
     /**
@@ -10,7 +13,22 @@ public class RansomNote {
      *      canConstruct("aa", "aab") -> true
      */
     public static boolean canConstruct(String note, String mag) {
-        return false;
+        if (note.length() < 1 || mag.length() < 1 || note.length() > mag.length()) {
+            return false;
+        } else {
+            List<Character> magChars = new ArrayList<>();
+            dumpToList(mag, magChars);
+
+
+        }
+
+    }
+    
+    private static void dumpToList(String s, List<Character> sArray) {
+        char[] sChars = s.toCharArray();
+        for (char c : sChars) {
+            sArray.add(c);
+        }
     }
 
     public static void main(String[] args) {
