@@ -20,10 +20,10 @@ public class PerfectNumber {
         return divisorSum != 0 && num / divisorSum == 1;
     }
 
-    public static void main(String[] args) {
-        System.out.println(isPerfectNumber(5));
-        System.out.println(isPerfectNumber(6));
-        System.out.println(isPerfectNumber(28));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(isPerfectNumber(5));
+//        System.out.println(isPerfectNumber(6));
+//        System.out.println(isPerfectNumber(28));
+//    }
 
 }
