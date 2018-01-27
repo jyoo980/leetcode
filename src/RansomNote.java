@@ -37,10 +37,10 @@ public class RansomNote {
         }
     }
 
-    public static void main(String[] args) {
-        System.out.println(canConstruct("a", "b"));
-        System.out.println(canConstruct("aa", "ab"));
-        System.out.println(canConstruct("aa", "aab"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(canConstruct("a", "b"));
+//        System.out.println(canConstruct("aa", "ab"));
+//        System.out.println(canConstruct("aa", "aab"));
+//    }
 
 }
