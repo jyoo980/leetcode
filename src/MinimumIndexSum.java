@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.HashSet;
+
 public class MinimumIndexSum {
 
     /**
@@ -10,11 +13,18 @@ public class MinimumIndexSum {
      *      return: ["Shogun"]
      */
     public static String[] getLeastIndexSum(String[] array1, String[] array2) {
-        return null;
+        HashMap<String, Integer> commonMap = new HashMap<>();
+        for (int i = 0; i < array1.length; i++) {
+            int correspondingIndex = getLocation(array1[i], array2);
+        }
+    }
+
+    private static int getLocation(String s, String[] array2) {
+        return 0;
     }
 
     public static void main(String[] args) {
 
     }
-    
+
 }
