@@ -17,10 +17,10 @@ public class DecompressString {
         return decomp.toString();
     }
 
-    public static void main(String[] args) {
-        System.out.println(decompress("a1b2"));
-        System.out.println(decompress("a2b1c3"));
-        System.out.println(decompress("a1"));
-    }
+//    public static void main(String[] args) {
+//        System.out.println(decompress("a1b2"));
+//        System.out.println(decompress("a2b1c3"));
+//        System.out.println(decompress("a1"));
+//    }
 
 }
