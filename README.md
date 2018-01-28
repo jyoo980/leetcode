@@ -44,3 +44,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 37. [PerfectNumber](https://leetcode.com/problems/perfect-number/)
 38. [MajorityElement](https://leetcode.com/problems/majority-element/)
 39. DecompressString
+40. [MinimumIndexSum](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)

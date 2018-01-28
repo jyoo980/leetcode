@@ -24,8 +24,8 @@ public class MinimumIndexSum {
         for (Map.Entry<Integer, String> entry : commonMap.entrySet()) {
             min = (entry.getKey() < min) ? entry.getKey() : min;
         }
-        String[] results = new String[]{commonMap.get(min)};
-        return results;
+        return  new String[]{commonMap.get(min)};
+
     }
 
     private static int getLocation(String s, String[] array2) {
@@ -37,14 +37,19 @@ public class MinimumIndexSum {
         return 1000000;     // if not found
     }
 
-    public static void main(String[] args) {
-        String[] test1 = {"Shogun", "Tapioca Express", "Burger King", "KFC"};
-        String[] test2 = {"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"};
-        String[] result1 = getLeastIndexSum(test1, test2);
-        for (String s : result1) {
-            System.out.println(s);
-        }
-    }
+//    public static void main(String[] args) {
+//        String[] test1 = {"Shogun", "Tapioca Express", "Burger King", "KFC"};
+//        String[] test2 = {"Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"};
+//        String[] test3 = {"a", "b", "c", "d"};
+//        String[] test4 = {"b", "c", "d", "a"};
+//        String[] result1 = getLeastIndexSum(test1, test2);
+//        String[] result2 = getLeastIndexSum(test3, test4);
+//        for (String s : result1) {
+//            System.out.println(s);
+//        }
+//        for (String s : result2) {
+//            System.out.println(s);
+//        }
+//    }
 
 }
-
