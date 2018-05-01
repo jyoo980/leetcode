@@ -45,3 +45,4 @@ Not all solutions may be optimal, but they should be working, first-pass attempt
 38. [MajorityElement](https://leetcode.com/problems/majority-element/)
 39. DecompressString
 40. [MinimumIndexSum](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)
+41. [GetMaxDepthBinaryTree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
